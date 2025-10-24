@@ -1,4 +1,4 @@
-AlgoBox: Prixdachat
+AlgoBox: Prix_d_achat
 Afficher le montant d'achat
 Code de l'algorithme
 FONCTIONS_UTILISEES
