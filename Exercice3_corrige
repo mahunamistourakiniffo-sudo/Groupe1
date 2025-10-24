@@ -1,0 +1,21 @@
+AlgoBox: DiplomeEtLesAnneesDexperience
+Afficher admis ou réfusé selon le cas
+Code de l'algorithme
+FONCTIONS UTILISEES
+VARIABLES
+diplome EST DU TYPE NOMBRE
+experience EST DU TYPE NOMBRE
+DEBUT ALGORITHME
+AFFICHER "Entrez le code de votre diplome (1 pour Licence , 2 pour Master , 3 pour
+Doctorat , 0 pour aucun )"
+LIRE diplome
+LIRE experience
+SI ((diplome == 1 OU diplome == 2 OU diplome == 3) ET experience >= 3) ALORS
+DEBUT_SI
+AFFICHER "Admis"
+FIN_SI
+SINON
+DEBUT_SINON
+AFFICHER "Réfusé"
+FIN_SINON
+FIN ALGORITHME
