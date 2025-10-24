@@ -1,27 +1,18 @@
 AlgoBox: CommandeDeRepasAuRestaurantDeLaFastNati
 Commande de rapas au restaurant de la fast nati
 Code de l'algorithme
-1 FONCTIONS_UTILISEES
-2 VARIABLES
-3 a EST_DU_TYPE NOMBRE
-4 DEBUT_ALGORITHME
-5 AFFICHER "Entrez a"
-6 LIRE a
-7 SI (a > 1500) ALORS
-8 DEBUT_SI
-9 AFFICHER "Offrir un dessert"
-10 FIN_SI
-11 SINON
-12 DEBUT_SINON
-13 AFFICHER "Facturer normalement"
-14 FIN_SINON
-15 FIN_ALGORITHME
-
-Résultats
-***Algorithme lancé***
-Entrez a
-Entrer a: 2000
-Offrir un dessert
-***Algorithme terminé***
-
-Généré par AlgoBox
+FONCTIONS_UTILISEES
+VARIABLES
+a EST_DU_TYPE NOMBRE
+DEBUT_ALGORITHME
+AFFICHER "Entrez a"
+LIRE a
+SI (a > 1500) ALORS
+DEBUT_SI
+AFFICHER "Offrir un dessert"
+FIN_SI
+SINON
+DEBUT_SINON
+AFFICHER "Facturer normalement"
+FIN_SINON
+FIN_ALGORITHME
