@@ -1,0 +1,21 @@
+AlgoBox: Prixdachat
+Afficher le montant d'achat
+Code de l'algorithme
+FONCTIONS_UTILISEES
+VARIABLES
+a EST_DU_TYPE NOMBRE
+b EST_DU_TYPE NOMBRE
+DEBUT_ALGORITHME
+LIRE a
+SI (a>100000) ALORS
+DEBUT_SI
+b PREND_LA_VALEUR (a - (a*10)/100)
+AFFICHER "le montant final est :"
+AFFICHERCALCUL b
+FIN_SI
+SINON
+DEBUT_SINON
+AFFICHER "le montant final est :"
+AFFICHERCALCUL a
+FIN_SINON
+FIN_ALGORITHME
